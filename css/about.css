@@ -1,0 +1,291 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+html,
+body {
+  font-size: 20px;
+  max-width: 640px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+p {
+  font-size: 10px;
+  font-weight: normal;
+}
+.story {
+  position: relative;
+}
+.story h1 {
+  color: #949393;
+}
+.story h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #949393;
+  top: 15px;
+  left: 50%;
+  margin-left: -65px;
+}
+.story h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #949393;
+  top: 15px;
+  left: 50%;
+  margin-left: 45px;
+}
+.story p {
+  padding: 10px;
+  color: #949393;
+}
+.btn {
+  background-color: #ed85ad;
+  width: 121px;
+  height: 31px;
+  border-radius: 20px 0px 20px 0px;
+  line-height: 31px;
+  color: #f1f1f1;
+}
+.page01 .box {
+  width: 360px;
+  height: 155px;
+  background: #cdcdcd;
+}
+.page02 {
+  text-align: center;
+}
+.page02 img {
+  width: 100%;
+}
+.page02 p {
+  font-size: 14px;
+  color: #949393;
+  padding: 10px 10px;
+}
+.page03 {
+  text-align: center;
+  overflow: hidden;
+}
+.page03 .founder .left {
+  width: 50%;
+  float: left;
+}
+.page03 .founder .left img {
+  width: 100%;
+}
+.page03 .founder .right p {
+  font-size: 12px;
+  color: #949393;
+  padding: 0px 10px;
+}
+.page04 {
+  text-align: center;
+}
+.page04 .story h1:before {
+  margin-left: -75px;
+}
+.page04 .story h1:after {
+  margin-left: 55px;
+}
+.page04 .story p {
+  padding: 0px;
+}
+.page04 p {
+  font-size: 14px;
+  color: #949393;
+}
+.page04 ul {
+  overflow: hidden;
+  margin: 0px 10px;
+}
+.page04 ul li {
+  width: 40%;
+  float: left;
+  padding: 15px 15px 0px 15px;
+}
+.page04 ul li img {
+  width: 100%;
+}
+.page04 ul li p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.page05 {
+  text-align: center;
+}
+.page05 .story h1:before {
+  margin-left: -90px;
+}
+.page05 .story h1:after {
+  margin-left: 70px;
+}
+.page05 ul {
+  padding: 10px;
+  overflow: hidden;
+}
+.page05 ul li {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+.page05 ul li .box {
+  border: 1px solid #82abcc;
+  padding: 3px;
+  border-radius: 100%;
+  line-height: 40%;
+}
+.page05 ul li .box img {
+  width: 100%;
+}
+.page05 ul li h1 {
+  margin: 10px 0px;
+  color: #5ed8ce;
+}
+.page05 ul li p {
+  font-size: 14px;
+  color: #949393;
+}
+.page05 ul li:nth-child(2n) {
+  margin-left: 14px;
+}
+.page06 {
+  text-align: center;
+  padding: 10px;
+}
+.page06 .story h1:before {
+  margin-left: -105px;
+}
+.page06 .story h1:after {
+  margin-left: 85px;
+}
+.page06 img {
+  width: 100%;
+}
+.page07 {
+  text-align: center;
+}
+.page07 ul {
+  overflow: hidden;
+}
+.page07 ul li {
+  float: left;
+  position: relative;
+  width: 45%;
+  padding: 0px 9px 9px 9px;
+}
+.page07 ul li img {
+  width: 100%;
+}
+.page07 ul li span {
+  font-size: 12px;
+  display: list-item;
+  background: #ccc;
+  top: 94px;
+  position: absolute;
+  display: none;
+}
+.page08 {
+  text-align: center;
+}
+.page08 .swiper-container .swiper-wrapper .problems {
+  padding: 10px 0px 50px 0px;
+  background: #ccc;
+}
+.page08 .swiper-container .swiper-wrapper .problems .common {
+  width: 95%;
+  position: relative;
+  background: #e9e9e9;
+  padding-bottom: 100px;
+  padding-top: 10px;
+  margin: auto;
+}
+.page08 .swiper-container .swiper-wrapper .problems .common img {
+  background: #fff;
+}
+.page08 .swiper-container .swiper-wrapper .problems .common h1 {
+  margin: 10px;
+}
+.page08 .swiper-container .swiper-wrapper .problems .common p {
+  font-size: 14px;
+}
+.page08 .swiper-container .swiper-wrapper .problems .common .btn {
+  position: absolute;
+  left: 114px;
+  top: 350px;
+}
+.page09 {
+  text-align: center;
+}
+.page09 .list li {
+  background-color: #ed85ad;
+  display: inline-block;
+  left: 114px;
+  top: 350px;
+  width: 80px;
+  height: 31px;
+  z-index: 172;
+  border-radius: 20px 0px 20px 0px;
+  line-height: 31px;
+  color: #f1f1f1;
+  font-size: 16px;
+}
+.page09 .list li.cur {
+  background-color: #6bed73;
+}
+.page09 .content li input {
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 20px 0px 20px 0px;
+  border: 1px solid #cc86b0;
+  text-indent: 20px;
+  font-size: 16px;
+}
+.page09 .content li textarea {
+  margin-top: 10px;
+  border-radius: 20px 0px 20px 0px;
+  border: 1px solid #cc86b0;
+  text-indent: 20px;
+  font-size: 16px;
+}
+.page09 .content li .btn {
+  margin: 10px auto;
+}

@@ -1,0 +1,60 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+html,
+body {
+  font-size: 20px;
+  max-width: 640px;
+}
+div {
+  color: #858585;
+}
+.top {
+  text-align: center;
+  display: flex;
+}
+.top .left {
+  flex: 1;
+  align-self: center;
+  font-size: 1.6rem;
+}
+.top img {
+  flex: 1;
+  height: 3rem;
+  padding: 0.25rem 2.5rem;
+}
+.top .right {
+  flex: 1;
+  align-self: center;
+  font-size: 1.6rem;
+}
